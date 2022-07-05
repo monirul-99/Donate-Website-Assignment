@@ -1,0 +1,297 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=The+Nautigal:wght@400;700&display=swap');
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body
+{
+    background-color: gray;
+}
+
+.container
+{
+    width: 85%;
+    /* height: 6000px; */
+    margin: auto;
+    background-color: #ffffff;
+}
+
+.cover-img 
+{
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(images/donation3.jpg);
+}
+
+.cover-text h1 
+{
+    text-align: center;
+    margin-top: -600px;
+    color: white;
+    font-size: 95px;
+    font-weight: 700;
+}
+
+.cover-text p 
+{
+    text-align: center;
+    font-size: 27px;
+    color: white;
+}
+
+a.donate-btn 
+{
+    padding: 20px 50px;
+    border-radius: 5px;
+    background: orange;
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    font-weight: 500;
+    margin-left: 37.5%;
+    margin-top: 50px;
+    position: absolute;
+}
+
+section.donate-today-area 
+{
+    margin-top: 500px;
+}
+
+h1.donate-title 
+{
+    text-align: center;
+    font-size: 60px;
+    color: orange;
+}
+
+p.donate-describe 
+{
+    text-align: center;
+    padding-top: 30px;
+    font-size: 30px;
+}
+
+.donate-option 
+{
+    width: 65%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+.donate 
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 200px;
+    background: #f4f4f4;
+    font-size: 40px;
+    font-weight: 700;
+    color: #707070;
+    margin-left: 30px;
+    padding: 50px;
+
+}
+
+div#donate-red-color 
+{
+    border: 6px solid #FF5959;
+    background: #FFEEEE;
+    width: 230px;
+    height: 220px;
+    margin-top: -7px;
+}
+
+.donate-input 
+{
+    width: 90%;
+}
+
+input.amount-box-design 
+{
+    width: 79%;
+    margin-left: 248px;
+    font-size: 25px;
+    padding-top: 80px;
+    padding-left: 430px;
+    border: none;
+    border-bottom: 1px solid #707070;
+    outline: none;
+    padding-bottom: 10px;
+}
+
+button.second-donate-btn 
+{
+    position: absolute;
+    margin-top: 165px;
+    margin-left: -700px;
+    padding: 20px 50px;
+    border-radius: 5px;
+    border: none;
+    background: orange;
+    font-size: 20px;
+    color: white;
+    font-weight: 500;
+}
+
+section.donate-plan 
+{
+    margin-top: 250px;
+}
+
+section.donate-plan h1 
+{
+    font-size: 65px;
+    text-align: center;
+}
+
+.main-describe 
+{
+    padding: 20px;
+    text-align: center;
+    font-size: 22px;
+}
+
+.donate-plan-items
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    margin-left: -44px;
+}
+
+.plan-item 
+{
+    width: 460px;
+    height: 550px;
+    margin-left: 40px;
+    border-radius: 10px;
+}
+
+div#bg-color-one 
+{
+    background-color: #EDF5F6;
+}
+
+div#bg-color-two 
+{
+    background-color: #F9E8E8;
+}
+
+div#bg-color-three 
+{
+    background-color: #FFF4D6;
+}
+
+img.img-resize 
+{
+    width: 18%;
+    margin-top: 120px;
+    margin-left: 40px;
+}
+
+h2.plan-title 
+{
+    font-size: 35px;
+    margin-top: 25px;
+    margin-left: 40px;
+}
+
+p.plan-desCribe 
+{
+    margin-top: 20px;
+    font-size: 20px;
+    margin-left: 40px;
+}
+
+section.form-area 
+{
+    margin-top: 200px;
+}
+
+h1.form-title 
+{
+    text-align: center;
+    font-size: 60px;
+}
+
+p.form-describe 
+{
+    text-align: center;
+    margin-top: 50px;
+    font-size: 25px;
+    color: #707070;
+}
+
+.main-form 
+{
+    width: 65%;
+    margin: auto;
+    height: 300px;
+    background-color: #FFF4D6;
+    margin-top: 100px;
+}
+
+input.subscribe 
+{
+    margin-top: 120px;
+    margin-left: 237px;
+    padding: 14px 40px;
+    outline: none;
+    font-size: 25px;
+    background-color: #C4C4C4;
+    color: white;
+    border: none;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    position: absolute;
+}
+.subscribe-btn 
+{
+    margin-top: 120px;
+    margin-left: 620px;
+    padding: 14px 40px;
+    outline: none;
+    font-size: 25px;
+    background-color: #FF5959;
+    color: white;
+    border: none;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+footer
+{
+    height: 300px;
+    background: #0B0D17;
+    margin-top: 200px;
+}
+
+footer h1 
+{
+    color: white;
+    text-align: center;
+    padding-top: 125px;
+    font-family: 'The Nautigal', cursive;
+    font-size: 70px;
+}
+
+footer p 
+{
+    text-align: center;
+    margin-top: 40px;
+    color: white;
+    font-size: 15px;
+}
