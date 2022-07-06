@@ -29,22 +29,22 @@ body
     height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url(images/donation3.jpg);
+    background-image: url(images/donation2.jpg);
 }
 
 .cover-text h1 
 {
     text-align: center;
-    margin-top: -600px;
+    margin-top: -550px;
     color: white;
-    font-size: 95px;
+    font-size: 70px;
     font-weight: 700;
 }
 
 .cover-text p 
 {
     text-align: center;
-    font-size: 27px;
+    font-size: 20px;
     color: white;
 }
 
@@ -64,14 +64,13 @@ a.donate-btn
 
 section.donate-today-area 
 {
-    margin-top: 500px;
+    margin-top: 400px;
 }
 
 h1.donate-title 
 {
     text-align: center;
     font-size: 60px;
-    color: orange;
 }
 
 p.donate-describe 
@@ -294,4 +293,81 @@ footer p
     margin-top: 40px;
     color: white;
     font-size: 15px;
+}
+
+h1.volunteer-title {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 40px;
+    color: white;
+    padding-top: 80px;
+}
+
+section.volunteer {
+    margin-top: 120px;
+    height: 850px;
+    background: #2A2B2D;
+}
+
+p.volunteer-describe {
+    text-align: center;
+    margin-top: 20px;
+    color: white;
+}
+
+.main-contact {
+    width: 80%;
+    height: 370px;
+    margin: auto;
+    background: white;
+    margin-top: 135px;
+}
+
+.contact-info img {
+    width: 550px;
+    position: absolute;
+    margin-top: -70px;
+    margin-left: 68px;
+}
+
+.contact-info h1 {
+    padding-top: 63px;
+    margin-left: 900px;
+    color: #51C4EA;
+    text-transform: uppercase;
+}
+
+p.volunteer {
+    margin-left: 925px;
+    color: #707070;
+}
+
+p.volunteer-p-tag {
+    margin-left: 670px;
+    padding-top: 35px;
+    text-align: center;
+}
+
+.phone img {
+    margin-left: 1045px;
+    width: 18px;
+    margin-top: 48px;
+}
+
+.email img {
+    width: 20px;
+    margin-left: 775px;
+    margin-top: 48px;
+}
+
+span.email-address {
+    position: absolute;
+    margin-left: 810px;
+    padding-top: 45px;
+}
+
+span.number {
+    margin-left: 1075px;
+    margin-top: 45px;
+    position: absolute;
 }
